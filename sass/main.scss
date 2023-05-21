@@ -1,0 +1,24 @@
+// abstracts
+@use 'abstracts/fonts';
+@use 'abstracts/variables';
+
+// vendors
+
+// base
+@use 'base/reset';
+
+// layout
+@use 'layout/footer';
+@use 'layout/navigation';
+
+// components
+@use 'components/card';
+
+// pages
+@use 'pages/index';
+
+// themes
+
+// vendors
+@use 'vendors/fontawesome/fontawesome.scss';
+@use 'vendors/fontawesome/solid.scss';

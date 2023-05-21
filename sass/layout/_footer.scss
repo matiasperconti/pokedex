@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as v;
+
+footer{
+    color: v.$white;
+    background-color: v.$red;
+    font-family: 'Roboto Mono', monospace;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    
+    p{
+        margin: auto;
+    }
+}

@@ -1,0 +1,41 @@
+@use '../abstracts/variables' as v;
+
+.main-nav{
+    background-color: v.$red;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 0.5em;
+}
+
+h1{
+    color: v.$yellow;
+    margin: auto 0;
+}
+
+form{
+    margin: auto;
+    width: 100%;
+
+    input{
+        background-color: v.$white;
+        color: v.$black;
+        width: 90%;
+        height: 40px;
+        border: none;
+        border-radius: 2px 0 0 2px;
+        padding: 5px;
+    }
+
+    button{
+        background-color: v.$white;
+        color: v.$black;
+        position: absolute;
+        height: 40px;
+        width: 5%;
+        padding: 2px;
+        border: none;
+        border-left: 1px solid v.$black;
+        border-radius: 0 2px 2px 0;
+    }
+}
+

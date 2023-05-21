@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <h1>Pokedex</h1>
+        <form action="" onsubmit="searchPokemon(event)">
+            <input type="text" class="search__input" name="pokemonSearched" placeholder="Search by name or number">
+            <button type="submit" class="search__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </nav>
+
+    <article class="card">
+        <div class="card__body">
+            <h2 class="card__title"></h2>
+            <div class="img__container">
+                <img src="img/poke-shadow.png" alt="Pokemon image" class="card__img">
+            </div>
+            <h3 class="card__number"></h3>
+            <h3 class="card__type"></h3>
+        </div>
+        <div class="card__stats">
+            <div class="stat">
+                <h4 class="stat__title">Attack:</h4>
+                <p class="stat__value"></p>
+            </div>
+            <div class="stat">
+                <h4 class="stat__title">Defense:</h4>
+                <p class="stat__value"></p>
+            </div>
+            <div class="stat">
+                <h4 class="stat__title">HP:</h4>
+                <p class="stat__value"></p>
+            </div>
+            <div class="stat">
+                <h4 class="stat__title">Special attack:</h4>
+                <p class="stat__value"></p>
+            </div>
+            <div class="stat">
+                <h4 class="stat__title">Special defense:</h4>
+                <p class="stat__value"></p>
+            </div>
+            <div class="stat">
+                <h4 class="stat__title">Speed:</h4>
+                <p class="stat__value"></p>
+            </div>
+        </div>
+        <div class="bubble">
+            <div class="bubble__shine"></div>
+        </div>
+    </article>
+    
+    <footer>
+        <p>Made by Matias Perconti - 2023</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
