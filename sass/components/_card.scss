@@ -23,10 +23,15 @@
     &__title{
         text-transform: capitalize;
     }
-
+    
+    &__numtypecontainer{
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    
     &__number{
-        display: inline-block;
-        margin: 20px 20px 10px;
         border: 2px solid v.$black;
         background-color: v.$black;
         border-radius: 5px;
@@ -34,13 +39,11 @@
     }
 
     &__type{
-        display: inline-block;
         color: v.$black;
         border: 2px solid v.$black;
         border-radius: 5px;
         background-color: gray;
         width: 100px;
-        margin: auto;
         text-transform: capitalize;
     }   
     

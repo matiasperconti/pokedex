@@ -90,22 +90,24 @@ form button {
 .card__title {
   text-transform: capitalize;
 }
+.card__numtypecontainer {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
 .card__number {
-  display: inline-block;
-  margin: 20px 20px 10px;
   border: 2px solid #312E27;
   background-color: #312E27;
   border-radius: 5px;
   width: 60px;
 }
 .card__type {
-  display: inline-block;
   color: #312E27;
   border: 2px solid #312E27;
   border-radius: 5px;
   background-color: gray;
   width: 100px;
-  margin: auto;
   text-transform: capitalize;
 }
 .card .img__container {
