@@ -8,6 +8,12 @@ footer{
     margin: auto;
     width: 100%;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+
+    @media (min-width: 500px){
+        position: relative;
+    }
     
     p{
         margin: auto;
