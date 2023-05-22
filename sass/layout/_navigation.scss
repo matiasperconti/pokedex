@@ -7,18 +7,50 @@
     text-align: center;
     justify-content: space-between;
     padding: 0.5em;
+    
+    
+    &__logocontainer{
+        height: 40px;
+        margin: auto 0;
+        
+        a{
+            height: inherit;
+        }
+
+        img{
+            height: inherit;
+        }
+    }
+    
+    &__menubtn{
+        margin: auto 0;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        background-color: v.$red;
+        border-radius: 2px;
+        
+        &:hover{
+            opacity: 0.85;
+            cursor: pointer;
+        }
+        &:active{
+            opacity: 0.5;
+        }
+
+        i{
+            padding: 0.5em;
+        }
+    }
 }
 
-img{
-    height: 45px;
-    margin: auto;
-}
 
 form{
     display: flex;
     margin: auto;
     height: 35px;
-    width: 70%;
+    width: 60%;
+    justify-content: center;
 
     input{
         background-color: v.$white;
@@ -42,4 +74,3 @@ form{
         cursor: pointer;
     }
 }
-

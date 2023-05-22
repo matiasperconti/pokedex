@@ -38,17 +38,41 @@ footer p {
   justify-content: space-between;
   padding: 0.5em;
 }
-
-img {
-  height: 45px;
-  margin: auto;
+.main-nav__logocontainer {
+  height: 40px;
+  margin: auto 0;
+}
+.main-nav__logocontainer a {
+  height: inherit;
+}
+.main-nav__logocontainer img {
+  height: inherit;
+}
+.main-nav__menubtn {
+  margin: auto 0;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  background-color: #F41D46;
+  border-radius: 2px;
+}
+.main-nav__menubtn:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+.main-nav__menubtn:active {
+  opacity: 0.5;
+}
+.main-nav__menubtn i {
+  padding: 0.5em;
 }
 
 form {
   display: flex;
   margin: auto;
   height: 35px;
-  width: 70%;
+  width: 60%;
+  justify-content: center;
 }
 form input {
   background-color: #DCEEDF;
