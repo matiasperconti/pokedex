@@ -29,6 +29,13 @@ footer {
 footer p {
   margin: auto;
 }
+footer a {
+  color: #82C7C4;
+  text-decoration: none;
+}
+footer a:visited {
+  color: #82C7C4;
+}
 
 .main-nav {
   background-color: #1C64A8;

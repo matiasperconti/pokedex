@@ -18,4 +18,13 @@ footer{
     p{
         margin: auto;
     }
+    
+    a{
+        color: v.$background-lblue;
+        text-decoration: none;
+        
+        &:visited{
+            color: v.$background-lblue;
+        }
+    }
 }
