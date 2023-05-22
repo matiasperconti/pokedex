@@ -12,7 +12,7 @@
     &__logocontainer{
         height: 40px;
         margin: auto 0;
-        
+
         a{
             height: inherit;
         }
@@ -28,6 +28,7 @@
         display: flex;
         justify-content: center;
         background-color: v.$red;
+        color: v.$blue;
         border-radius: 2px;
         
         &:hover{
@@ -40,6 +41,34 @@
 
         i{
             padding: 0.5em;
+        }
+    }
+
+    &__alert{
+        display: none;
+        background-color: #f495a7;
+        color: v.$blue;
+        position: absolute;
+        top: 50px;
+        right: 8px;
+        align-items: center;
+        border-radius: 2px;
+        z-index: 1;
+        outline: 2px solid v.$black;
+
+        p{
+            margin: auto;
+            padding: 0.5em;
+        }
+        
+        i{
+            background-color: v.$red;
+            padding: 0.5em;
+
+            &:hover{
+                cursor: pointer;
+                color: v.$bubble-shine;
+            }
         }
     }
 }

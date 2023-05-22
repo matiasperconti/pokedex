@@ -6,6 +6,9 @@ const cardStats = document.querySelectorAll('.stat__value');
 const searchInput = document.querySelector('.search__input')
 const searchBtn = document.querySelector('.search__btn');
 const cardBubble = document.querySelector('.bubble');
+const menuBtn = document.querySelector('.main-nav__menubtn');
+const alertSign = document.querySelector('.main-nav__alert');
+const alertClose = document.getElementById('xAlert');
 
 const colors = {
     bug: '#A2FAA3',
@@ -108,3 +111,11 @@ const pokemonNotFound = () => {
         cardStats[i].textContent = 'X';
     };
 };
+
+menuBtn.addEventListener('click', () => {
+    alertSign.style.display = 'flex';
+});
+
+alertClose.addEventListener('click', () =>{
+    alertSign.style.display = 'none';
+});
