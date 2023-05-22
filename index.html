@@ -7,10 +7,13 @@
     <title>Pokedex</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="icon" href="img/pokedex-icon.png">
 </head>
 <body>
     <nav class="main-nav">
-        <h1>Pokedex</h1>
+        <div class="main-nav__logocontainer">
+            <img src="img/pokedex-icon.png" alt="Pokedex icon">
+        </div>
         <form action="" onsubmit="searchPokemon(event)">
             <input type="search" class="search__input" name="pokemonSearched" placeholder="Search by name or number" autocomplete="off">
             <button type="submit" class="search__btn"><i class="uil uil-search"></i></button>

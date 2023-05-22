@@ -1,7 +1,7 @@
 @use '../abstracts/variables' as v;
 
 .main-nav{
-    background-color: v.$red;
+    background-color: v.$bubble-blue;
     width: 100%;
     display: flex;
     text-align: center;
@@ -9,9 +9,9 @@
     padding: 0.5em;
 }
 
-h1{
-    color: v.$yellow;
-    margin: auto 0;
+img{
+    height: 45px;
+    margin: auto;
 }
 
 form{
